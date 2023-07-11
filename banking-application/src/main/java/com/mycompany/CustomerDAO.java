@@ -9,7 +9,7 @@ import java.sql.SQLException;
  */
 public class CustomerDAO {
     
-    public static Customer insertCustomer(Customer customer) {
+    public static boolean insertCustomer(Customer customer) {
         String INSERT = "INSERT INTO customers (cust_first_name, cust_middle_name, cust_last_name," +
                         "cust_date_of_birth, cust_gender, cust_phone, cust_email, cust_password)" +
                         "VALUES(?,?,?,?,?,?,?,?)";
@@ -24,10 +24,12 @@ public class CustomerDAO {
             statement.setString(6, customer.getCellphoneNumber());
             statement.setString(7, customer.getEmail());
             statement.setString(8, customer.getPassword());
+            int rowsAffected = statement.executeUpdate();
+            return rowsAffected > 0;
         } catch(SQLException e) {
             e.printStackTrace();
         }   
 
-        return null;
+        return false;
     }
 }

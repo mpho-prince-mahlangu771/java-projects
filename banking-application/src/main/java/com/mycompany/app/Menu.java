@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 import com.mycompany.Customer;
+import com.mycompany.CustomerDAO;
 import com.mycompany.UserInputValidator;
 
 public class Menu {
@@ -123,6 +124,9 @@ public class Menu {
                         
                         //store newcustomer in db - also to generate customerID for the bankAccount class
                         // create and init bank class
+                        System.out.println("was data insertion successful? :" 
+                                           + CustomerDAO.insertCustomer(newCustomer));
+                        
 
                     }
                 } //end of input validation if
