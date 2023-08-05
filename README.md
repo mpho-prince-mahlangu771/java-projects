@@ -1,6 +1,11 @@
-# java-projects
-I thought to myself, I can't just watch LinkedIn courses and expect to become a high value Java back-end software engineer. I have to build projects that will help me to re-inforce what I've learnt on all the courses and help me gage where I need to Improve 
+# About The Project
+A simple text-based java application that allows simulates a ficticious bank, which I've arbitrarily named Fake Bank Merchants. The application will allow ussers to create a fake-bank account and perform typical banking operations such as depositing , withdrawing and , transferring, and also allow them to  view and edit  their banking profile.
 
-# Clarity On Projects
+## What I learnt From This Project 
+ I could have used a web or java swing GUI, which could have simplified the entire development process but I intentionally chose not to. I believe a text-based-interface allowed me to greatly improve my problem-solving and logical skills. It made me to  become more creative as I faced issues such as dealing with bad input,issues with connecting to a datasource, beautifully formatting output, etc. 
 
-The are two projects with similar naming: BankingApplication and banking-application. The latter is the new and improved project structure that takes advantage of maven build tool.  
+
+## What next
+My goal is to become a back-end Java software engineer. I'm working to master as much basic java before moving on to the ultimate boss -  spring boot. I intend to move from only text-based interfaces to GUI as soon as possible. 
+
+
