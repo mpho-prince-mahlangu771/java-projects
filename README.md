@@ -6,6 +6,6 @@ A simple text-based java application that allows simulates a ficticious bank, wh
 
 
 ## What next
-My goal is to become a back-end Java software engineer. I'm working to master as much basic java before moving on to the ultimate boss -  spring boot. I intend to move from only text-based interfaces to GUI as soon as possible. 
+My goal is to become a high value back-end Java software engineer. I'm working to master as much basic java before moving on to the ultimate boss -  spring boot. I will be moving  from only text-based interfaces to GUI as soon as possible, I already have a front-end skill set. 
 
 
